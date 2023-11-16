@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "12-final-project"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Donskoy <donskoi.com@gmail.com>"]
+packages = [
+    { include = "final_project", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.2"
+click = "^8.1.7"
+unittest = "^0.0"
+pytest = "^7.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
